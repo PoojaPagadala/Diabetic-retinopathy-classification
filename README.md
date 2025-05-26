@@ -118,10 +118,10 @@ kavyasudha2803/
 
 ## 👥 Authors
 
+- Pagadala Pooja
 - Gorrepati Kavya Sudha 
 - Akuthota Meghana  
-- Vuyyala Likhitha  
-- Pagadala Pooja  
+- Vuyyala Likhitha    
 - Vemula Teena Mounika  
 
 **Supervisor**: Dr. Habila Basumatary  
