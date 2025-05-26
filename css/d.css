@@ -1,0 +1,337 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: verdana;
+}
+
+/* p{
+    padding:10px;
+    font-family: 'Roboto';
+    color:#fff;
+    font-size: 20px;
+    text-align: center;
+} */
+p {
+  padding: 10px;
+  font-family: "Roboto";
+  color: rgb(241, 240, 246);
+  font-size: 20px;
+  text-align: center;
+}
+.h {
+  font-size: x-large;
+  padding: 20px;
+}
+.im {
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fcienciapioneira.org%2Fen%2Fquantum-vision-in-the-laboratory%2F&psig=AOvVaw0qXDfZIHuvgn6dk9UOdRRY&ust=1726486865061000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqGAoTCOiit4D6xIgDFQAAAAAdAAAAABDBBA");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  position: fixed;
+}
+
+/* nav {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+}
+nav ul {
+  font-family: "EuclidCircularB", sans-serif;
+  float: right;
+  margin-right: 30px;
+  margin-top: 0px;
+} */
+nav {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+nav ul {
+  font-family: "EuclidCircularB", sans-serif;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+/* nav ul li {
+  list-style-type: none;
+  text-align: center;
+  display: inline-block;
+  transition: 0.8s all;
+}
+nav ul li:hover {
+  background: color #000900;
+  padding: 10px;
+  text-decoration: none;
+} */
+
+nav ul li {
+  list-style-type: none;
+  margin: 0 10px;
+  transition: 0.8s all;
+}
+nav ul li:hover {
+  /* padding: 10px;
+  text-decoration: none; */
+  transform: translateX(-10px);
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 20px;
+}
+#nav-item1 {
+  color: white;
+}
+#nav-item2 {
+  color: white;
+}
+#nav-item3 {
+  color: white;
+}
+#nav-item4 {
+  color: white;
+}
+#nav-item5 {
+  color: white;
+}
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+.hamburger div {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+}
+.msg {
+  position: relative;
+  justify-content: center;
+  top: 100px;
+  left: 22.5%;
+  background-color: rgba(163, 63, 6, 0.6);
+  color: white;
+  padding: 10px;
+  backdrop-filter: blur(20px);
+  border-radius: 8px;
+  max-width: 55%;
+}
+.msg h2 {
+  font-family: "Roboto";
+  padding: 20px;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.msg p {
+  font-family: "Roboto";
+
+  font-size: 30px;
+  text-align: center;
+}
+.T:hover {
+  filter: brightness(150%);
+}
+.T n {
+  text-align: center;
+}
+.T h2 {
+  padding: 10px;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+.T p {
+  font-family: "Roboto";
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+}
+.T {
+  font-family: "Roboto";
+  font-size: 20px;
+  position: relative;
+  justify-content: center;
+  top: 120px;
+  left: 22.5%;
+  backdrop-filter: blur(20px);
+  text-align: center;
+  background-color: rgba(163, 63, 6, 0.6);
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 55%;
+}
+.t11 p {
+  font-family: "Roboto";
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+}
+.t11 h2 {
+  font-family: "Roboto";
+
+  padding: 20px;
+
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.t12 p {
+  font-family: "Roboto";
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+}
+.t12 h2 {
+  font-family: "Roboto";
+  padding: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.t22 p {
+  font-family: "Roboto";
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+}
+.t22 h2 {
+  font-family: "Roboto";
+  padding: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.t21 p {
+  font-family: "Roboto";
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+}
+.t21 h2 {
+  font-family: "Roboto";
+  padding: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.t11:hover {
+  filter: brightness(150%);
+}
+.t12:hover {
+  filter: brightness(150%);
+}
+.t21:hover {
+  filter: brightness(150%);
+}
+.t22:hover {
+  filter: brightness(150%);
+}
+.t11 {
+  position: relative;
+  display: inline-block;
+  top:160px;
+  left: 5%;
+  backdrop-filter: blur(20px);
+  background-color: rgba(163, 63, 6, 0.6);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 40%;
+  text-align: center;
+  height: 65vh;
+}
+.t12 {
+  position: relative;
+  display: inline-block;
+  top: 187px;
+  left: 12.5%;
+  background-color: rgba(163, 63, 6, 0.6);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 40%;
+  text-align: center;
+  height: 65vh;
+  backdrop-filter: blur(20px);
+}
+
+.t21 {
+  position: relative;
+  display: inline-block;
+  top: 232px;
+  left: 5%;
+  background-color: rgba(163, 63, 6, 0.6);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 40%;
+  text-align: center;
+  height: 65vh;
+  backdrop-filter: blur(20px);
+}
+
+.t22 {
+  position: relative;
+  display: inline-block;
+  top: 257px;
+  left: 12.5%;
+  background-color: rgba(163, 63, 6, 0.6);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 40%;
+  text-align: center;
+  height: 65vh;
+  backdrop-filter: blur(20px);
+}
+.shape {
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 80px;
+    left: 0;
+    text-align: center;
+  }
+  nav ul li {
+    margin: 0;
+    padding: 20px;
+  }
+  nav ul.show {
+    display: flex;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .msg {
+    left: 10px;
+    max-width: 95%;
+  }
+}
+/**
+.im{
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fcienciapioneira.org%2Fen%2Fquantum-vision-in-the-laboratory%2F&psig=AOvVaw0qXDfZIHuvgn6dk9UOdRRY&ust=1726486865061000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqGAoTCOiit4D6xIgDFQAAAAAdAAAAABDBBA");
+    height:90.4vh;
+    width:100vw;
+    background-size: cover;
+}**/

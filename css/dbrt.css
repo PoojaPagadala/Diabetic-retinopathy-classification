@@ -1,0 +1,145 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: verdana;
+}
+p {
+  padding: 10px;
+  font-family: "Roboto";
+  color: rgb(241, 240, 246);
+  font-size: 20px;
+  text-align: center;
+}
+.h {
+  font-size: x-large;
+  padding: 20px;
+}
+.im {
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fcienciapioneira.org%2Fen%2Fquantum-vision-in-the-laboratory%2F&psig=AOvVaw0qXDfZIHuvgn6dk9UOdRRY&ust=1726486865061000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqGAoTCOiit4D6xIgDFQAAAAAdAAAAABDBBA");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  position: fixed;
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+nav ul {
+  font-family: "EuclidCircularB", sans-serif;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  list-style-type: none;
+  margin: 0 10px;
+  transition: 0.8s all;
+}
+nav ul li:hover {
+  /* padding: 10px;
+  text-decoration: none; */
+  transform: translateX(-10px);
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 20px;
+}
+#nav-item1,
+#nav-item2,
+#nav-item3,
+#nav-item4,
+#nav-item5 {
+  color: white;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+.hamburger div {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+}
+
+.msg {
+  position: relative;
+  top: 15vh;
+  left: 20%;
+  backdrop-filter: blur(20px);
+  background-color: rgba(163, 63, 6, 0.6);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 60%;
+  height: 70vh;
+  backdrop-filter: blur(20px);
+}
+.msg h2 {
+  font-family: "Roboto";
+  padding: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.msg p {
+  font-family: "Roboto";
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+}
+.shape {
+  border-radius: 50%;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 80px;
+    left: 0;
+    text-align: center;
+  }
+  nav ul li {
+    margin: 0;
+    padding: 20px;
+  }
+  nav ul.show {
+    display: flex;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .msg {
+    left: 10px;
+    max-width: 95%;
+  }
+}
+
+/**
+.im{
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fcienciapioneira.org%2Fen%2Fquantum-vision-in-the-laboratory%2F&psig=AOvVaw0qXDfZIHuvgn6dk9UOdRRY&ust=1726486865061000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqGAoTCOiit4D6xIgDFQAAAAAdAAAAABDBBA");
+    height:90.4vh;
+    width:100vw;
+    background-size: cover;
+}**/
+
+/* @media(max-width:1118px)
+{
+    
+} */
