@@ -1,0 +1,16 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Mac OS files
+.DS_Store
+
+# Environment files
+.env
+*.env
+
+# Output and logs (optional)
+*.log
